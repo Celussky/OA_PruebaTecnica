@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+:root{
+    --verde-oscuro: #2EC4B6;
+    --verde-claro: #CBF3F0;
+    --naranja-oscuro: #FF9F1C;
+    --naranja-claro: #FFDFB4;
+    --letra: #FFFFFF;
+}
+
+nav{
+    background-color: var(--verde-oscuro);
+}
+
+.letra-navbar{
+    color: var(--letra);
+}
+
+.btnUser{
+    background-color: var(--naranja-oscuro);
+    color: var(--letra);
+}
+
+.navbar2{
+    background-color: var(--naranja-oscuro);
+    height: 33px;
+}
