@@ -1,25 +1,60 @@
-:root{
-    --verde-oscuro: #2EC4B6;
-    --verde-claro: #CBF3F0;
-    --naranja-oscuro: #FF9F1C;
-    --naranja-claro: #FFDFB4;
-    --letra: #FFFFFF;
+:root {
+  --verde-oscuro: #2ec4b6;
+  --verde-claro: #cbf3f0;
+  --naranja-oscuro: #ff9f1c;
+  --naranja-claro: #ffdfb4;
+  --letra: #ffffff;
 }
 
-nav{
-    background-color: var(--verde-oscuro);
+.imgLogo {
+  width: 57px;
+  height: 52px;
 }
 
-.letra-navbar{
-    color: var(--letra);
+.nbLogo {
+  -webkit-text-stroke: 1px black;
 }
 
-.btnUser{
-    background-color: var(--naranja-oscuro);
-    color: var(--letra);
+nav {
+  background-color: var(--verde-oscuro);
 }
 
-.navbar2{
-    background-color: var(--naranja-oscuro);
-    height: 33px;
+.letra-navbar {
+  color: var(--letra);
 }
+
+.btnUser {
+  background-color: var(--naranja-oscuro);
+  color: var(--letra);
+}
+
+.navbar2 {
+  background-color: var(--naranja-oscuro);
+  height: 33px;
+}
+
+.cardRecetas {
+  background-color: var(--verde-claro);
+}
+
+.btnRecetas {
+  background-color: var(--naranja-claro);
+  position: absolute;
+  bottom: 67px;
+  right: 140px;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 7px 10px;
+}
+
+.cardTips{
+    background-color: var(--naranja-claro);
+}
+
+.btnTips {
+    background-color: var(--verde-claro);
+    position: absolute;
+    bottom: 67px;
+    left: 225px;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 7px 10px;
+  }
