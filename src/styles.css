@@ -1,1 +1,60 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --verde-oscuro: #2ec4b6;
+  --verde-claro: #cbf3f0;
+  --naranja-oscuro: #ff9f1c;
+  --naranja-claro: #ffdfb4;
+  --letra: #ffffff;
+}
+
+.imgLogo {
+  width: 57px;
+  height: 52px;
+}
+
+.nbLogo {
+  -webkit-text-stroke: 1px black;
+}
+
+nav {
+  background-color: var(--verde-oscuro);
+}
+
+.letra-navbar {
+  color: var(--letra);
+}
+
+.btnUser {
+  background-color: var(--naranja-oscuro);
+  color: var(--letra);
+}
+
+.navbar2 {
+  background-color: var(--naranja-oscuro);
+  height: 33px;
+}
+
+.cardRecetas {
+  background-color: var(--verde-claro);
+}
+
+.btnRecetas {
+  background-color: var(--naranja-claro);
+  position: absolute;
+  bottom: 67px;
+  right: 140px;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 7px 10px;
+}
+
+.cardTips{
+    background-color: var(--naranja-claro);
+}
+
+.btnTips {
+    background-color: var(--verde-claro);
+    position: absolute;
+    bottom: 67px;
+    left: 225px;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 7px 10px;
+  }
