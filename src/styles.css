@@ -46,15 +46,33 @@ nav {
   box-shadow: 0px 7px 10px;
 }
 
-.cardTips{
-    background-color: var(--naranja-claro);
+.cardTips {
+  background-color: var(--naranja-claro);
 }
 
 .btnTips {
-    background-color: var(--verde-claro);
-    position: absolute;
-    bottom: 67px;
-    left: 225px;
-    transform: translate(-50%, -50%);
-    box-shadow: 0px 7px 10px;
-  }
+  background-color: var(--verde-claro);
+  position: absolute;
+  bottom: 67px;
+  left: 225px;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 7px 10px;
+}
+
+.footer {
+  background-color: var(--verde-oscuro);
+}
+
+.linkFooter {
+  width: 60px;
+  background-color: var(--naranja-oscuro);
+  height: 2px;
+}
+
+.linkPsw {
+  color: var(--verde-oscuro);
+}
+
+.modal-footer{
+  border-color: var(--naranja-oscuro);
+}

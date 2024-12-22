@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { LoginComponent } from '../login/login.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { faHouse } from '@fortawesome/free-solid-svg-icons';
 import { faLightbulb } from '@fortawesome/free-solid-svg-icons';
@@ -9,10 +10,11 @@ import { faUser } from '@fortawesome/free-solid-svg-icons';
   selector: 'app-navbar',
   standalone: true,
   imports: [
+    LoginComponent,
     FontAwesomeModule
   ],
   templateUrl: './navbar.component.html',
-  styleUrl: './navbar.component.css'
+  styleUrl: './navbar.component.css',
 })
 export class NavbarComponent {
   faHouse = faHouse
