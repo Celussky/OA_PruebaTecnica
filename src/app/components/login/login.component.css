@@ -1,0 +1,20 @@
+.imgLogin{
+    width: 135px;
+    height: 129px;
+    background-image: url(../../../../public/cooking_1830839.png);
+    background-size: contain;
+    margin: 0 auto;
+}
+
+.contImgLogin{
+    border-radius: 50%;
+    margin: 0px 155px 0px 155px;
+    padding: 10px 20px 20px 20px;
+    width: 166px;
+    height: 161px;
+}
+
+.btnLogin{
+    margin-left: 150px;
+    margin-right: 150px;
+}
