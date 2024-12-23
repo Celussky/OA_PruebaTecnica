@@ -2,18 +2,75 @@
   position: relative;
 }
 
-.home {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 .imgHome {
   height: 372px;
 }
 
-.imgResetas{
-    width: 500px;
-    height: 500px;
+.imgResetas {
+  width: 500px;
+  height: 500px;
+}
+
+@media (min-width: 970px) {
+  .home {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media (max-width: 970px) {
+  .imgHome {
+    height: 250px; /* Reduce la altura para pantallas pequeñas */
+    object-fit: cover;
+  }
+
+  .home {
+    position: absolute;
+    top: 65%; /* Ajusta la posición vertical del texto para pantallas pequeñas */
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .imgResetas {
+    width: 100%;
+    max-width: 300px; /* Limita el tamaño para pantallas pequeñas */
+    height: auto; /* Mantén la proporción de la imagen */
+    margin: 10px 0; /* Espaciado vertical */
+  }
+
+  .cardRecetas {
+    flex-direction: column; /* Cambia la dirección a vertical */
+    text-align: center;
+    padding: 20px;
+  }
+
+  .txRecetas {
+    margin-right: 0 !important;
+    padding-left: 16px;
+  }
+
+  .cardTips {
+    display: flex;
+    flex-direction: column-reverse; /* Invertir el orden de imagen y texto */
+    text-align: center;
+  }
+
+  .cardTips img {
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+  }
+
+  .contTxTips {
+    margin-left: 0 !important;
+    padding-right: 16px;
+  }
+
+  .btnRecetas,
+  .btnTips {
+    position: static; /* Elimina la posición absoluta */
+    margin: 20px auto; /* Centra horizontalmente */
+  }
 }
